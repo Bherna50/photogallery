@@ -1,6 +1,8 @@
 body {
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    display:grid;
+    justify-content: center;
 }
 header {
     background-color: #ffffff;
@@ -29,6 +31,9 @@ h2 {
 }
 main {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
 }
 #contact {
     background-color: #000000;
@@ -38,6 +43,9 @@ main {
 form {
     background-color: #000000;
     color:#ffffff
+}
+.button {
+    background-color: #007d7b;
 }
 footer {
     background-color: #000000;
