@@ -19,9 +19,11 @@ nav ul {
 }
 nav li {
     margin: auto;
+    justify-content: right;
 }
 nav a {
     color:#ffffff;
+    justify-content: right;
 }
 h1 {
     color:#007d7b
